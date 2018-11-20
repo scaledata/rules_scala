@@ -445,7 +445,7 @@ def _build_deployable(ctx, jars_list):
   # This calls bazels singlejar utility.
   # For a full list of available command line options see:
   # https://github.com/bazelbuild/bazel/blob/master/src/java_tools/singlejar/java/com/google/devtools/build/singlejar/SingleJar.java#L311
-  args = ["--normalize", "--sources"]
+  args = ["--compression", "--normalize", "--sources"]
   args.extend([j.path for j in jars_list])
   if getattr(ctx.attr, "main_class", ""):
     args.extend(["--main_class", ctx.attr.main_class])
