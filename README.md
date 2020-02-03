@@ -1,3 +1,12 @@
+# THIS IS NOT CURRENTLY USED
+
+THIS IS NOT CURRENTLY USED
+This exists for historical purposes but currently we are not using it.
+We could in theory delete it except that requires backporting a bunch of changes.
+Currently the code here is not being used by us.
+If we need this again someday we should just delete and refork to start from a clean slate.
+
+
 # Scala Rules for Bazel
 [![Build Status](https://travis-ci.org/bazelbuild/rules_scala.svg?branch=master)](https://travis-ci.org/bazelbuild/rules_scala) [![Build status](https://badge.buildkite.com/90ce5244556df74db805a3c24a703fb87458396f9e1ddd687e.svg)](https://buildkite.com/bazel/scala-rules-scala-postsubmit) [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/bazelbuild_rules_scala/Lobby)
 
